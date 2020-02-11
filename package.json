@@ -1,5 +1,5 @@
 {
-  "name": "gulp-sass-bulk-import",
+  "name": "@romellem/gulp-sass-bulk-import",
   "version": "1.0.1",
   "description": "import directories in your SCSS",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:mathisonian/gulp-sass-bulk-import.git"
+    "url": "git@github.com:romellem/gulp-sass-bulk-import.git"
   },
   "keywords": [
     "gulpplugin",
@@ -21,12 +21,15 @@
     "import",
     "sass"
   ],
-  "author": "Matthew Conlen",
+  "contributors": [
+    "Matthew Conlen <mc@mathisonian.com>",
+    "Matt Wade <matt.wade@designory.com>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mathisonian/gulp-sass-bulk-import/issues"
+    "url": "https://github.com/romellem/gulp-sass-bulk-import/issues"
   },
-  "homepage": "https://github.com/mathisonian/gulp-sass-bulk-import",
+  "homepage": "https://github.com/romellem/gulp-sass-bulk-import",
   "dependencies": {
     "glob": "^7.1.6",
     "through2": "^3.0.1",
