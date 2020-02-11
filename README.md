@@ -1,5 +1,5 @@
-gulp-sass-bulk-import
-=====================
+gulp-sass-bulk-importer
+=======================
 
 > **NOTE:**  
 > Forked from [mathisonian/gulp-sass-bulk-import](https://github.com/mathisonian/gulp-sass-bulk-import) to upgrade the underlying dependencies.
@@ -8,12 +8,10 @@ gulp-sass-bulk-import
 
 gulp task to allow importing directories in your SCSS
 
-[![Build Status](https://travis-ci.org/mathisonian/gulp-sass-bulk-import.svg?branch=master)](https://travis-ci.org/mathisonian/gulp-sass-bulk-import)
-
 ## installation
 
 ```
-npm install --save-dev gulp-sass-bulk-import
+npm install --save-dev gulp-sass-bulk-importer
 ```
 
 
@@ -36,7 +34,7 @@ npm install --save-dev gulp-sass-bulk-import
 #### in your gulpfile
 
 ```js
-var bulkSass = require('gulp-sass-bulk-import');
+var bulkSass = require('gulp-sass-bulk-importer');
 
 gulp.task('css', function() {
     return gulp
