@@ -29,7 +29,7 @@
   "homepage": "https://github.com/mathisonian/gulp-sass-bulk-import",
   "dependencies": {
     "glob": "^7.1.6",
-    "through2": "0.6.5",
+    "through2": "^3.0.1",
     "vinyl-fs": "0.3.14"
   },
   "devDependencies": {
