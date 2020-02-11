@@ -1,7 +1,6 @@
-var expect = require('expect.js');
+var assert = require('assert');
 var vinyl = require('vinyl-fs');
-var bulkSass = require('..');
-
+var bulkSass = require('../index.js');
 
 describe('gulp-sass-glob-import', function() {
 
@@ -13,7 +12,7 @@ describe('gulp-sass-glob-import', function() {
             .src(__dirname + '/test-scss/app.scss')
             .pipe(bulkSass())
             .on('data', function(file) {
-                expect(file.contents.toString('utf-8').trim()).to.equal(equalString.trim());
+                assert.strictEqual(file.contents.toString('utf-8').trim(), equalString.trim());
             })
             .on('end', function() {
                 done();
@@ -30,7 +29,7 @@ describe('gulp-sass-glob-import', function() {
             .src(__dirname + '/test-scss/recursive.scss')
             .pipe(bulkSass())
             .on('data', function(file) {
-                expect(file.contents.toString('utf-8').trim()).to.equal(equalString.trim());
+                assert.strictEqual(file.contents.toString('utf-8').trim(), equalString.trim());
             })
             .on('end', function() {
                 done();
@@ -48,7 +47,7 @@ describe('gulp-sass-glob-import', function() {
             .src(__dirname + '/test-scss/single-double-quotes.scss')
             .pipe(bulkSass())
             .on('data', function(file) {
-                expect(file.contents.toString('utf-8').trim()).to.equal(equalString.trim());
+                assert.strictEqual(file.contents.toString('utf-8').trim(), equalString.trim());
             })
             .on('end', function() {
                 done();
@@ -64,7 +63,7 @@ describe('gulp-sass-glob-import', function() {
           .src(__dirname + '/test-scss/duplicates.scss')
           .pipe(bulkSass())
           .on('data', function(file){
-            expect(file.contents.toString('utf-8').trim()).to.equal(equalString.trim());
+            assert.strictEqual(file.contents.toString('utf-8').trim(), equalString.trim());
           })
           .on('end', function(){
             done();
@@ -80,7 +79,7 @@ describe('gulp-sass-glob-import', function() {
           .src(__dirname + '/test-scss/duplicates2.scss')
           .pipe(bulkSass())
           .on('data', function(file){
-            expect(file.contents.toString('utf-8').trim()).to.equal(equalString.trim());
+            assert.strictEqual(file.contents.toString('utf-8').trim(), equalString.trim());
           })
           .on('end', function(){
             done();
