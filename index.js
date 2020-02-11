@@ -65,7 +65,7 @@ module.exports = function() {
             contents = contents.replace(sub, replaceString);
         }
 
-        file.contents = new Buffer(contents);
+        file.contents = Buffer.from(contents);
         cb(null, file);
     };
     return through.obj(transform);
