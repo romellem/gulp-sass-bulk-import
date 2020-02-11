@@ -1,7 +1,6 @@
 var expect = require('expect.js');
 var vinyl = require('vinyl-fs');
-var bulkSass = require('..');
-
+var bulkSass = require('../index.js');
 
 describe('gulp-sass-glob-import', function() {
 
