@@ -28,9 +28,9 @@
   },
   "homepage": "https://github.com/mathisonian/gulp-sass-bulk-import",
   "dependencies": {
-    "glob": "^4.0.6",
-    "through2": "^0.6.3",
-    "vinyl-fs": "^0.3.9"
+    "glob": "4.5.3",
+    "through2": "0.6.5",
+    "vinyl-fs": "0.3.14"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
