@@ -2,7 +2,7 @@ gulp-sass-bulk-import
 =====================
 
 > **NOTE:**  
-> Forked from [mathisonian/gulp-sass-bulk-import)](https://github.com/mathisonian/gulp-sass-bulk-import) to upgrade the underlying dependencies.
+> Forked from [mathisonian/gulp-sass-bulk-import](https://github.com/mathisonian/gulp-sass-bulk-import) to upgrade the underlying dependencies.
 > 
 > This upgrade changes the minimum node version needed, from 0.10 to **8.X**.
 
