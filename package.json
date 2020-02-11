@@ -30,7 +30,7 @@
   "dependencies": {
     "glob": "^7.1.6",
     "through2": "^3.0.1",
-    "vinyl-fs": "0.3.14"
+    "vinyl-fs": "^3.0.3"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
